@@ -10,7 +10,8 @@
 
 **1. 영화 추천 시스템 - 콘텐츠 기반 필터링(Content-based Filtering)**
 - TMDB 5000 Movie Dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-- Count Vectorizer를 사용해 장르 속성을 기반으로 각 아이템 간의 콘텐츠에 대해 유사도를 계산하고, 이를 기반으로 추천
+- 장르 속성을 기반으로 각 아이템 간의 콘텐츠에 대해 유사도를 계산하고, 이를 기반으로 추천
+- Count Vectorizer 사용; 코사인 유사도 측정 사용
 
 **2. 영화 추천 시스템 - 아이템 기반 최근접 이웃 협업 필터링(Item-based Nearest Neighbor Collaborative Filtering)**
 - MovieLens Latest Datasets (https://grouplens.org/datasets/movielens/latest/)
@@ -22,7 +23,8 @@
 **3. 책 추천 시스템 - 콘텐츠 기반 필터링(Content-based Filtering)**
 - Good Books Dataset (https://www.kaggle.com/zygmunt/goodbooks-10k)
 - ratings, books, tag, book_tags, to_read의 10k(10,000) 데이터
-- Tfidf Vectorizer를 사용해 authors, tag_name, 그리고 authors+tag_name을 합친 것을 기반으로 유사한 책 추천
+- authors, tag_name, 그리고 authors와 tag_name을 합친 것을 기반으로 유사도를 계산하여 유사한 책 추천
+- Tfidf Vectorizer 사용; 코사인 유사도 측정 사용
 
 ---
 ## To-do
