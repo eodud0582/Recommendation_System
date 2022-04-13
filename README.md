@@ -1,4 +1,4 @@
-# 추천 시스템(Recommendation System) 구현
+# 추천 시스템(Recommendation System)
 ### Recommendation system development using various methods and approaches
 
 > 다양한 추천 시스템 방법론을 사용해 구현해보고 있습니다.
