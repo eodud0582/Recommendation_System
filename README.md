@@ -12,7 +12,7 @@
 - TMDB 5000 Movie Dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - Count Vectorizer를 사용해 장르 속성을 기반으로 각 아이템 간의 콘텐츠에 대해 유사도를 계산하고, 이를 기반으로 추천
 
-**2. 영화 추천 시스템 - 아이템 기반(Item-based) 최근접 이웃(Nearest Neighbor) 협업 필터링(Collaborative Filtering)**
+**2. 영화 추천 시스템 - 아이템 기반 최근접 이웃 협업 필터링(Item-based Nearest Neighbor Collaborative Filtering)**
 - MovieLens Latest Datasets (https://grouplens.org/datasets/movielens/latest/)
 - 영화의 평점을 매긴 사용자와 평점 행렬 등의 데이터이며, 이 중 1MB짜리 small 데이터 사용
 - '이 상품을 선택한 다른 고객들은 다음 상품도 구매했음'을 기반으로 추천
