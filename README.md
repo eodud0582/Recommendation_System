@@ -23,7 +23,7 @@
 **3. 책 추천 시스템 - 콘텐츠 기반 필터링(Content-based Filtering)**
 - Good Books Dataset (https://www.kaggle.com/zygmunt/goodbooks-10k)
 - ratings, books, tag, book_tags, to_read의 10k(10,000) 데이터
-- authors, tag_name, 그리고 authors와 tag_name을 합친 것을 기반으로 유사도를 계산하여 유사한 책 추천
+- authors, tag_name, 그리고 authors와 tag_name을 합친 속성을 기반으로 유사도를 계산하여 유사한 책 추천
 - Tfidf Vectorizer 사용; 코사인 유사도 측정 사용
 
 ---
